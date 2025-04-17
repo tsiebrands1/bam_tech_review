@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  stargate-api:
+    image: mcr.microsoft.com/dotnet/aspnet:8.0
+    container_name: stargate-api
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Data Source=/data/starbase.db;
+    volumes:
+      - ./src/Stargate.API:/app
+      - ./data:/data # Mount the data directory for SQLite
+    working_dir: /app
+    command: ["dotnet", "Stargate.API.dll"]
+    depends_on:
+      - sqlite
+
+  sqlite:
+    image: nouchka/sqlite3
+    container_name: sqlite_container
+    volumes:
+      - ./data:/data # Persist SQLite database file
+    entrypoint: ["sqlite3", "/data/starbase.db"]
+
+volumes:
+  sqlite_data:

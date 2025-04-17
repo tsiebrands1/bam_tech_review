@@ -47,19 +47,17 @@ public static class MappingExtensions
 	}
 
 	public static AstronautDuty ToAstronautDuty(this IAstronautDuty source,
-		AstronautDuty? destination = null!)
+		AstronautDuty? destination = null)
 	{
-		var entity = destination ?? new AstronautDuty
-		{
-			Rank = source.Rank,
-			DutyTitle = source.DutyTitle,
-			DutyStartDate = source.DutyStartDate
-		};
+		destination ??= new AstronautDuty();
+		destination.Rank = source.Rank;
+		destination.DutyTitle = source.DutyTitle;
+		destination.DutyStartDate = source.DutyStartDate;
 		if (source.Id != 0)
 		{
-			entity.Id = source.Id;
+			destination.Id = source.Id;
 		}
-		entity.DutyEndDate = source.DutyEndDate;
-		return entity;
+		destination.DutyEndDate = source.DutyEndDate;
+		return destination;
 	}
 }

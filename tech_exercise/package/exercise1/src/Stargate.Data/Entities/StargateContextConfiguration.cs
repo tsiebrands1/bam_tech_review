@@ -2,7 +2,9 @@
 
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
+[ExcludeFromCodeCoverage]
 public class StargateContextConfiguration(DbContextOptions<StargateContext> options) 
 	: StargateContext(options)
 {

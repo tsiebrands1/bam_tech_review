@@ -8,7 +8,7 @@ public static class ControllerBaseExtensions
 
 	public static IActionResult GetResponse(this ControllerBase controllerBase, BaseResponse response)
 	{
-		ArgumentNullException.ThrowIfNull(nameof(controllerBase));
+		ArgumentNullException.ThrowIfNull(controllerBase, nameof(controllerBase));
 		ArgumentNullException.ThrowIfNull(response, nameof(response));
 
 		return new ObjectResult(response)

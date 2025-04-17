@@ -21,13 +21,7 @@ public abstract class BaseHandler<TRequest, TResponse>(ILogger logger)
 		try
 		{
 			request.Validate();
-			await this.HandleAsync(request, cancellationToken);
-			return new TResponse
-			{
-				Success = true,
-				Message = "Operation completed successfully.",
-				ResponseCode = (int)HttpStatusCode.OK
-			};
+			return await this.HandleAsync(request, cancellationToken);
 		}
 		// Catching specific exceptions to provide more meaningful error messages
 		catch (EntityNotFoundException ex)

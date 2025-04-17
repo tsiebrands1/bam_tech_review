@@ -1,0 +1,601 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.API.Tests\\Stargate.API.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\Stargate.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\Stargate.API.csproj",
+        "projectName": "Stargate.API",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\Stargate.API.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj",
+        "projectName": "Stargate.Application",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Global.ExceptionHandler.Net.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj",
+        "projectName": "Stargate.Core",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj",
+        "projectName": "Stargate.Data",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.35, )"
+            },
+            "EFCore.NamingConventions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.API.Tests\\Stargate.API.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.API.Tests\\Stargate.API.Tests.csproj",
+        "projectName": "Stargate.API.Tests",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.API.Tests\\Stargate.API.Tests.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.API.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\Stargate.API.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.API\\Stargate.API.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Data\\Stargate.Data.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\Stargate.TestBase.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\Stargate.TestBase.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "AutoFixture.AutoNSubstitute": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\Stargate.TestBase.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\Stargate.TestBase.csproj",
+        "projectName": "Stargate.TestBase",
+        "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\Stargate.TestBase.csproj",
+        "packagesPath": "C:\\Users\\teras\\.nuget\\packages\\",
+        "outputPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\tests\\Stargate.TestBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\bam_tech_review\\NuGet.Config",
+          "C:\\Users\\teras\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Application\\Stargate.Application.csproj"
+              },
+              "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj": {
+                "projectPath": "C:\\bam_tech_review\\tech_exercise\\package\\exercise1\\src\\Stargate.Core\\Stargate.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "AutoFixture.AutoNSubstitute": {
+              "target": "Package",
+              "version": "[4.18.1, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.8.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.14.0, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.9.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

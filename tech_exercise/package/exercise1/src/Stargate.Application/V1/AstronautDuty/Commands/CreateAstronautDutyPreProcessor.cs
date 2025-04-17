@@ -33,7 +33,7 @@ public class CreateAstronautDutyPreProcessor(IAstronautDutyRepository astronautD
 		if (verifyNoPreviousDuty is not null)
 		{
 			throw new BadHttpRequestException
-				($"No previous duty exists for person with name of {request.Name}.");
+				($"Previous duty exists for person with name of {request.Name}.");
 		}
 	}
 }

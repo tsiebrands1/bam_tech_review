@@ -9,9 +9,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+//builder.Services.ConfigureLogging(builder.Configuration);
 //builder.Services.AddDbContext<StargateContext>(options => 
 //    options.UseSqlite(builder.Configuration.GetConnectionString("StarbaseApiDatabase")));
-builder.Services.ConfigureDatabase(builder.Configuration);
+builder.Services.ConfigureDatabaseRepository(builder.Configuration);
 
 builder.Services.AddMediatR(cfg =>
 {

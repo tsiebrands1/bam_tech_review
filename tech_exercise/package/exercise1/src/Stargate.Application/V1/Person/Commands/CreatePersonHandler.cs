@@ -21,7 +21,7 @@ public class CreatePersonHandler : BaseHandler<CreatePerson, CreatePersonResult>
 	{
 		var newPerson = request.ToPerson();
 
-		await this.personRepository.AddOrUpdateEntityAsync(newPerson, cancellationToken);
+		newPerson.Id = await this.personRepository.AddOrUpdateEntityAsync(newPerson, cancellationToken);
 
 		return new CreatePersonResult()
 		{
