@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/tech_exercise/package/exercise1/src/Stargate.API/.vs/StargateAPI
+/tech_exercise/package/exercise1/src/Stargate.API/bin/Debug/net8.0
+/tech_exercise/package/exercise1/.vs
+/tech_exercise/package/exercise1/src/Stargate.API/obj
+/tech_exercise/package/exercise1/src/Stargate.Application/obj
+/tech_exercise/package/exercise1/src/Stargate.Core/obj
+/tech_exercise/package/exercise1/src/Stargate.Data/obj
+/tech_exercise/package/exercise1/src/Stargate.Application/bin/Debug/net8.0
+/tech_exercise/package/exercise1/src/Stargate.Core/bin/Debug/net8.0
+/tech_exercise/package/exercise1/src/Stargate.Data/bin/Debug/net8.0
